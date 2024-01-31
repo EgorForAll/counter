@@ -1,0 +1,57 @@
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.click-btn {
+  width: 200px;
+  text-align: center;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.click-btn:hover {
+  background-color: rgb(249, 183, 60);
+  color: #000;
+}
+
+.click-btn:disabled {
+  background-color: rgb(161, 170, 177);
+}
+
+.counter-client {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(54, 128, 255);
+  color: rgb(18, 18, 180);
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.counter-server {
+  height: 40px;
+  background-color: rgb(221, 192, 6);
+  color: #333;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+}
